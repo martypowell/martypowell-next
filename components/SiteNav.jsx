@@ -13,6 +13,11 @@ export default (props) => (
           </Link>
         </li>
         <li>
+          <Link href="/resume">
+            <a>Resume</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/contact">
             <a>Contact</a>
           </Link>
