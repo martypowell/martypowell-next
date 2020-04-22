@@ -1,0 +1,28 @@
+.container {
+  background: rgb(18, 18, 49);
+  color: white;
+  padding: 0 15px;
+}
+
+.branding {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.navList a {
+  display: block;
+  padding: 15px;
+}
