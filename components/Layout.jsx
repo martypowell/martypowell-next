@@ -1,4 +1,6 @@
 import Head from "next/head";
+import styles from "./layout.module.css";
+
 export default (props) => (
   <>
     <Head>
@@ -7,6 +9,6 @@ export default (props) => (
         rel="stylesheet"
       />
     </Head>
-    <div>{props.children}</div>
+    <div className={styles.container}>{props.children}</div>
   </>
 );

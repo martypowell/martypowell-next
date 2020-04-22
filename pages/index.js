@@ -149,37 +149,6 @@ export default function Home() {
             }
           }
         `}</style>
-
-        <style jsx global>{`
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            font-family: "Roboto", sans-serif;
-          }
-
-          * {
-            box-sizing: border-box;
-          }
-
-          h1,
-          h2,
-          h3 {
-            font-family: "Open Sans", sans-serif;
-          }
-
-          a {
-            color: #1d70b8;
-            text-decoration: none;
-          }
-
-          a:hover {
-            transition: all 200ms ease;
-            transition-property: color, text-decoration;
-            color: #003078;
-            text-decoration: underline;
-          }
-        `}</style>
       </div>
     </>
   );
