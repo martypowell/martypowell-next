@@ -8,10 +8,7 @@ export function getStaticProps() {
 }
 
 export default ({ tagline, ...rest }) => (
-  <Layout>
-    <Head>
-      <title>Resume for Marty Powell</title>
-    </Head>
+  <Layout title="Marty Powell's Resume">
     <div>
       <h1>Resume</h1>
       <TaglineSection {...tagline} />

@@ -1,16 +1,9 @@
 import Head from "next/head";
-import Link from "next/link";
-import SiteNav from "../components/SiteNav";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Marty Powell Grown Up</title>
-      </Head>
-      <header>
-        <SiteNav />
-      </header>
+    <Layout title="Marty Powell Grown Up">
       <div className="container">
         <main>
           <h1 className="title">Hi, my name is Marty.</h1>
@@ -150,6 +143,6 @@ export default function Home() {
           }
         `}</style>
       </div>
-    </>
+    </Layout>
   );
 }
